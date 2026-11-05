@@ -2,6 +2,7 @@
 
 [English](README.md) | 中文
 
+[![CI](https://github.com/smiler488/wheat-grain-analysis/actions/workflows/test.yml/badge.svg)](https://github.com/smiler488/wheat-grain-analysis/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![MATLAB R2019b+](https://img.shields.io/badge/MATLAB_R2019b%2B-informational)
 一个 MATLAB 脚本：从一批照片中测量每粒小麦的长、宽、面积、周长和朝向，每个样品保存一张标注图，测量结果导出到 Excel 和 CSV。
 
 这是我在一个处理试验里用的。每个小区的籽粒铺在浅色背景上，用手机拍照。我需要逐粒的数据和小区均值放在一起看，也想快速检查分割效果，不想为此专门搭一套种子成像平台。`reference/grainscan/` 里保留了部分相同图片的 GrainScan 结果，方便对照。

@@ -2,6 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
+[![CI](https://github.com/smiler488/wheat-grain-analysis/actions/workflows/test.yml/badge.svg)](https://github.com/smiler488/wheat-grain-analysis/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![MATLAB R2019b+](https://img.shields.io/badge/MATLAB_R2019b%2B-informational)
 A MATLAB script that measures length, width, area, perimeter and orientation of every wheat grain in a set of photographs, saves an annotated image per sample and writes the measurements to Excel and CSV.
 
 I used it for a treatment trial in which grains from each plot were spread on a light background and photographed with a phone. I wanted per-grain data next to the plot means and a quick visual check of the segmentation, without setting up a dedicated seed-imaging station. Outputs from GrainScan for some of the same images are kept in `reference/grainscan/` for comparison.
